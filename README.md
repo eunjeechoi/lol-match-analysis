@@ -4,14 +4,16 @@
 
 ## 📚 Project Overview
 
-**LoL Match Insights** is a data-driven project designed to collect and analyze match data from Riot Games' official API.  
+**LoL Match Insights** is a data-driven project designed to collect, store, and analyze match data from Riot Games' official API.  
+This project systematically **stores match data in a local SQLite database** for efficient querying and long-term analysis.  
 Beyond simple win/loss outcomes, it aims to extract deep insights into player behaviors, objective control, and match dynamics.
 
 Key analysis areas include:
-- Overall match metadata analysis
+- Match metadata analysis
 - Time-based event tracking (objectives, pings, kills)
-- Champion performance and usage patterns
-- Summoner playstyle profiling
+- Champion performance analysis
+- Summoner playstyle analysis
+- Data storage and management with SQLite
 
 ---
 
@@ -21,6 +23,7 @@ Key analysis areas include:
 - **Champion Analytics**: Analyze champion stats such as win rate, damage output, and KDA.
 - **Event Timeline Parsing**: Process detailed event logs (dragons, barons, turrets, pings).
 - **Feature Engineering**: Generate features to model match flow and player impact.
+- **Database Management**: Efficiently manage large-scale match data for repeated analyses.
 - **Visualization Ready**: Designed for integration with visualization tools for advanced analysis.
 
 ---
